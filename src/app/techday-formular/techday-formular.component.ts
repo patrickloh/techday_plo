@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechdayFormularComponent implements OnInit {
 
-  hidden: boolean;
+  hidden: boolean = true;
   interesse: string;
   vorname: string;
   nachname: string;
